@@ -2,7 +2,7 @@ name: Update Nifty OI Dashboard
 
 on:
   schedule:
-    - cron: "*/15 4-10 * * 1-5"
+    - cron: "0,15,30,45 3-10 * * 1-5"
   workflow_dispatch:
 
 jobs:
